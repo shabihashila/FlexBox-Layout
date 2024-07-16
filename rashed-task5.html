@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit</title>
+     <style>
+        img{
+            height: 180px;
+            width: 200px;
+        }
+       .box1{
+        display: flex;
+        border:1px solid purple;
+       }
+       .box2{
+        display: flex;
+        border:1px solid purple;
+        flex-direction: row-reverse;
+       }
+       .container{
+        margin:0 auto;
+        height:350px;
+       }
+        @media screen and (max-width:576px){
+            .box1{
+                flex-direction: column;
+            }
+            .box2{
+                flex-direction: column;
+            }
+            
+        }
+     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="imgg">
+                <img src="./images/healthy-food.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique voluptates natus veniam facere distinctio ducimus, sit inventore quo debitis necessitatibus Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, officiis. Ipsam illum praesentium cumque quod expedita fuga alias vel ipsa?<br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aut, explicabo minima quo consectetur esse dolorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita et rem, veritatis vel hic aspernatur. atque rerum enim quia tempora commodi excepturi non?</p>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="imgg">
+                <img src="./images/download.png" alt="">
+            </div>
+            <div class="content">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique voluptates natus veniam facere distinctio ducimus, sit inventore quo debitis necessitatibus Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, officiis. Ipsam illum praesentium cumque quod expedita fuga alias vel ipsa?<br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aut, explicabo minima quo consectetur esse dolorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita et rem, veritatis vel hic aspernatur. atque rerum enim quia tempora commodi excepturi non?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

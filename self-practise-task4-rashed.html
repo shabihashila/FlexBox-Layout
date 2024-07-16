@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food section</title>
+    <style>
+        img{
+            height: 150px;
+            width: auto;
+        }
+        button{
+            margin: 9px 14px 13px 15px;
+            padding:8px;
+            border:1px solid rgb(17, 11, 201);
+            color:white;
+            background-color:rgb(17, 11, 201); 
+            border-radius: 5px;
+
+            
+        }
+        .box1{
+            display: flex;
+            border: 1px solid black;
+            border-radius: 4px;
+            margin-bottom: 2px;
+            background-color: rgb(254, 223, 176);
+        }
+        .box2{
+            display: flex;
+            border: 1px solid black;
+            border-radius: 5px;
+            flex-direction: row-reverse;
+            background-color: rgb(241, 241, 182);
+            width:auto;
+            height:200px;
+        }
+        .container{
+            gap: 5px;
+        }
+        @media screen and (max-width:576px){
+             .box1{
+                flex-direction: column;
+             }
+             .box2{
+                flex-direction: column;
+             }
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="img">
+                <img src="./images/download.png" alt="">
+            </div>
+            <div class="content">
+                <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nisi, voluptas quos illo nemo exercitationem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, doloribus! Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        
+        <div class="box2">
+            <div class="img">
+                <img src="./images/healthy-food.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nisi, voluptas quos illo nemo exercitationem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, doloribus! Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

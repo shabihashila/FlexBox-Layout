@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blog</title>
+    <style>
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .box{
+            display: flex;
+            /* flex-direction: row-reverse;
+           
+            */
+        }
+        /* .row-reverse{
+            flex-direction: row-reverse;
+             */
+        /* } */
+        .box .img{
+            height: 250px;
+            width:300px;
+        }
+        
+        @media screen and (max-width:576px) {
+            .box{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="img">
+             <img src="./images/download.png" alt="">
+            </div>
+            <div class="content">
+                <h2>Lorem ipsum, dolor sit amet .</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sit laboriosam aperiam voluptatem eaque dolorem?</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="box row-reverse">
+            <div class="img">
+             <img src="./images/healthy-food.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Lorem ipsum, dolor sit amet .</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sit laboriosam aperiam voluptatem eaque dolorem?</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
